@@ -61,7 +61,7 @@ public class ImageActivity extends AppCompatActivity {
             public void onResponse(Call<MSCVResponse> call, Response<MSCVResponse> response) {
                 Log.d("response body", response.toString());
                 Toast.makeText(getApplicationContext(), "response" + response.body().getResult().getLandmarks()[0].getName(), Toast.LENGTH_LONG).show();
-                Log.d("langmark", response.body().getResult().getLandmarks()[0].getName());
+                Log.d("landmark", response.body().getResult().getLandmarks()[0].getName());
             }
 
             @Override
