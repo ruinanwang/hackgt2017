@@ -23,5 +23,21 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current City: Atlanta"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#696969"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp" />
+
 
 </RelativeLayout>
